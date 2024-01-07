@@ -6,7 +6,10 @@
 @import "other-articles.css";
 
 *{
-    font-family: "Inter"!important;
+    font-family: "Inter";
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
