@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+@import "header.css";
+@import "main-article.css";
+@import "secondary-articles.css";
+@import "other-articles.css";
+
+*{
+    font-family: "Inter"!important;
+}
+
+body {
+    width: 100%!important;
+    height: 100vh!important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
