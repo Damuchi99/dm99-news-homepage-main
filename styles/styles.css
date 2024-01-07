@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
 
+@import "reset.css";
+
 @import "header.css";
 @import "main-article.css";
 @import "secondary-articles.css";
 @import "other-articles.css";
 
 *{
-    font-family: "Inter";
-    box-sizing: border-box;
+    font-family: "Inter"!important;
+    box-sizing: border-box!important;
     margin: 0;
     padding: 0;
 }
@@ -19,7 +21,6 @@ body {
     flex-direction: column;
     justify-content: center;
     background-color: rgb(255, 255, 255);
-    padding: 30px;
 }
 
 .attribution {

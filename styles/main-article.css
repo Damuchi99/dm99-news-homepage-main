@@ -1,0 +1,39 @@
+.main-article .main-article-img-mobile{
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    margin-top: 400px;
+}
+
+.main-article{
+    margin: 30px 15px!important;
+    
+}
+
+.main-article .main-article-title h1{
+    font-size: 46px;
+    font-weight: 800;
+    margin: 10px 0px;
+}
+
+.main-article .main-article-description p{
+    font-size: 14px;
+    font-weight: 400;
+    word-spacing: 3px;
+    color: rgb(93, 95, 121);
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.main-article .main-article-description .read-more-btn{
+    background-color: rgb(241, 94, 80);
+    border: none;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    display: block;
+    width: auto;
+}
