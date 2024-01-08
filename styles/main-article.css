@@ -1,13 +1,11 @@
-.main-article .main-article-img-mobile{
-    max-width: 100%;
-    height: auto;
-    position: relative;
-    margin-top: 400px;
+.main-article{
+    margin: 600px 15px 30px!important;
 }
 
-.main-article{
-    margin: 30px 15px!important;
-    
+.main-article .image{
+    max-width: 100%;
+    height: auto;
+    /*position: relative;*/
 }
 
 .main-article .main-article-title h1{
