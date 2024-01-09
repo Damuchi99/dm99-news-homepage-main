@@ -13,6 +13,10 @@
     margin: 10px 0px;
 }
 
+.main-article .main-article-preview{
+    margin: 10px 0px!important;
+}
+
 .main-article .main-article-description p{
     font-size: 14px;
     font-weight: 400;

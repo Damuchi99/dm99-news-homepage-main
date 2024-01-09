@@ -18,6 +18,10 @@ body {
     background-color: rgb(255, 255, 255);
 }
 
+.main-and-secondary, .other-articles{
+    padding: 0px 20px!important;
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
