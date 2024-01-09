@@ -1,5 +1,5 @@
 .main-article{
-    margin: 15px!important;
+    margin: 30px 0px!important;
 }
 
 .main-article .image{
@@ -32,5 +32,4 @@
     font-weight: 700;
     font-size: 14px;
     display: block;
-    width: auto;
 }
