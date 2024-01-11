@@ -28,6 +28,10 @@ body {
         --bs-gutter-y: 0!important;
     }
 
+    .main-and-secondary, .other-articles{
+        margin: 20px 0px!important;
+    }
+
     .main-and-secondary{
         align-items: center;
     }

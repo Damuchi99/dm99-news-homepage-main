@@ -41,27 +41,33 @@
 
 @media screen and (min-width: 768px) {
     .main-article{
-        margin: 10px 0px!important;
-        padding-right: 15px!important;
+        margin: 0px 0px!important;
+        padding: 0px 15px 0px 0px!important;
     }
 
     .main-article .main-article-title h1{
-        font-size: 40px;
+        font-size: 36px;
+        line-height: 1;
+        margin: 0px;
+    }
+
+    .main-article .main-article-description{
+        padding-left: 10px!important;
     }
 
     .main-article .main-article-description p{
-        font-size: 12px;
+        font-size: 10px;
+        word-spacing: 1px;
         margin-bottom: 10px;
     }
 
     .main-article .main-article-description .read-more-btn{
-        padding: 10px 25px;
-        font-size: 12px;
+        padding: 10px 20px;
+        font-size: 10px;
     }
 
     .main-article .main-article-preview{
+        margin-top: 25px!important;
         margin-bottom: 0px!important;
-        align-items: center;
-        justify-content: space-between;
     }
 }

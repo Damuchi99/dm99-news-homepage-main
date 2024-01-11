@@ -1,5 +1,5 @@
 .other-articles .article{
-    margin: 30px 0px;
+    margin: 30px 0px!important;
     display: flex;
     align-items: center;
 }
@@ -15,13 +15,13 @@
 }
 
 .other-articles .article h2{
-    font-size: 36px;
+    font-size: 28px;
     font-weight: 700;
     color: rgb(197, 198, 206);
 }
 
 .other-articles .article h4{
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 800;
     color: rgb(0, 0, 26);
 }
@@ -31,5 +31,40 @@
     font-weight: 400;
     color: rgb(93, 95, 121);
     margin: 0px;
-    line-height: 2;
+    line-height: 1.5;
+}
+
+@media screen and (min-width: 768px) {
+    .other-articles .article{
+        margin: 20px 0px!important;
+        padding-left: 0px!important;
+        display: flex;
+        align-items: center;
+    }
+
+    .other-articles .article .article-description{
+        margin-left: 15px;
+    }
+
+    .other-articles .article img{
+        max-width: 96px;
+        max-height: 116px;
+    }
+
+    .other-articles .article h2,.other-articles .article h4{
+        margin-bottom: 4px;
+    }
+
+    .other-articles .article h2{
+        font-size: 20px;
+    }
+    
+    .other-articles .article h4{
+        font-size: 14px;
+    }
+    
+    .other-articles .article p{
+        font-size: 10px;
+        line-height: 1.5;
+    }
 }
