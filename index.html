@@ -48,14 +48,12 @@
 
     <main>
         <section class="main-and-secondary container">
-            <div class="row g-0">
+            <div class="row g-0" id="main-and-secondary">
                 <div class="main-article container col-md-8">
-                    <!--img class="main-article-img-mobile" src="assets/images/image-web-3-mobile.jpg" alt="The Bright Future of Web 3.0?"/ width="686" height="600"-->
-                    <!--img class="main-article-img-desktop" src="assets/images/image-web-3-desktop.jpg" alt="The Bright Future of Web 3.0?"/-->
-                    <div class="row g-0">
-                        <img class="main-article-img-mobile" src="assets/images/image-web-3-mobile.jpg" alt="The Bright Future of Web 3.0?" width="686" height="600"/>
-                        <!--img class="main-article-img-desktop" src="assets/images/image-web-3-desktop.jpg" alt="The Bright Future of Web 3.0?"/-->
-                    </div>
+                    <picture>
+                        <source media="(min-width: 768px)" srcset="assets/images/image-web-3-desktop.jpg">
+                        <img src="assets/images/image-web-3-mobile.jpg" alt="The Bright Future of Web 3.0?">
+                    </picture>
                     <div class="main-article-preview row">
                         <div class="main-article-title col-md-6 p-0">
                             <h1>The Bright Future of Web 3.0?</h1>
