@@ -25,6 +25,33 @@
 }
 
 .secondary-articles hr{
-    color: #C5C6CE;
+    color: rgb(197, 198, 206);
     margin: 30px 0px;
+}
+
+@media screen and (min-width: 768px) {
+    .secondary-articles{
+        margin: 0px!important;
+        padding: 20px 15px!important;
+        height: 70%;
+    }
+
+    /*.secondary-articles .main-title{
+        font-size: 28px;
+        font-weight: 700;
+        color: rgb(233, 171, 83);
+        padding-bottom: 20px;
+    }*/
+
+    .secondary-articles .subtitle{
+        font-size: 12px;
+    }
+
+    .secondary-articles .description{
+        font-size: 10px;
+    }
+
+    .secondary-articles hr{
+        margin: 20px 0px;
+    }
 }

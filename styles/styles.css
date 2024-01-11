@@ -19,7 +19,18 @@ body {
 }
 
 .main-and-secondary, .other-articles{
-    padding: 0px 20px!important;
+    padding: 0px 15px!important;
+}
+
+@media screen and (min-width: 768px) {
+    .row{
+        --bs-gutter-x: 1.5rem!important;
+        --bs-gutter-y: 0!important;
+    }
+
+    .main-and-secondary{
+        align-items: center;
+    }
 }
 
 .attribution {

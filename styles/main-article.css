@@ -10,11 +10,12 @@
 .main-article .main-article-title h1{
     font-size: 46px;
     font-weight: 800;
-    margin: 10px 0px;
 }
 
 .main-article .main-article-preview{
     margin: 10px 0px!important;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .main-article .main-article-description p{
@@ -36,4 +37,31 @@
     font-weight: 700;
     font-size: 14px;
     display: block;
+}
+
+@media screen and (min-width: 768px) {
+    .main-article{
+        margin: 10px 0px!important;
+        padding-right: 15px!important;
+    }
+
+    .main-article .main-article-title h1{
+        font-size: 40px;
+    }
+
+    .main-article .main-article-description p{
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .main-article .main-article-description .read-more-btn{
+        padding: 10px 25px;
+        font-size: 12px;
+    }
+
+    .main-article .main-article-preview{
+        margin-bottom: 0px!important;
+        align-items: center;
+        justify-content: space-between;
+    }
 }
