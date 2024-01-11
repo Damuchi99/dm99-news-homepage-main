@@ -36,6 +36,10 @@ header .open-menu-btn{
 /*Mobile navbar*/
 
 @media screen and (max-width: 768px) {
+    header{
+        padding: 30px 40px;
+    }
+
     header .nav-links{
         display: none;
         float: right;
