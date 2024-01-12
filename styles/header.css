@@ -1,5 +1,5 @@
 header{
-    padding: 30px;
+    padding: 30px!important;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -36,9 +36,7 @@ header .open-menu-btn{
 /*Mobile navbar*/
 
 @media screen and (max-width: 768px) {
-    header{
-        padding: 30px 50px;
-    }
+    
 
     header .nav-links{
         display: none;
@@ -48,6 +46,12 @@ header .open-menu-btn{
     header .open-menu-btn{
         display: inherit;
         overflow: visible;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    header{
+        padding: 30px 50px!important;
     }
 }
 
