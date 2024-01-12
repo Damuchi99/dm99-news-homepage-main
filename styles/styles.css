@@ -37,6 +37,12 @@ body {
     }
 }
 
+@media screen and (min-width: 1440px) {
+    .other-articles{
+        margin: 50px 0px!important;
+    }
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;

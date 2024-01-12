@@ -96,3 +96,31 @@
         font-size: 12px;
     }
 }
+
+@media screen and (min-width: 1440px) {
+    .other-articles .article .article-description{
+        margin-left: 30px;
+        padding-right: 15px!important;
+    }
+
+    .other-articles .article img{
+        max-width: 150px;
+        max-height: 192px;
+    }
+
+    .other-articles .article h2,.other-articles .article h4{
+        margin-bottom: 10px;
+    }
+
+    .other-articles .article h2{
+        font-size: 36px;
+    }
+    
+    .other-articles .article h4{
+        font-size: 22px;
+    }
+    
+    .other-articles .article p{
+        font-size: 16px;
+    }
+}
