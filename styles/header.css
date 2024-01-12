@@ -55,6 +55,12 @@ header .open-menu-btn{
     }
 }
 
+@media screen and (min-width: 1024px) {
+    header{
+        padding: 30px 60px!important;
+    }
+}
+
 /*header .overlay{
     height: 100%;
     width: 0;

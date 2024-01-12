@@ -38,7 +38,6 @@
     .other-articles .article{
         margin: 20px 0px!important;
         padding-left: 0px!important;
-        padding-right: 10px!important;
         display: flex;
         align-items: center;
     }
@@ -67,5 +66,33 @@
     .other-articles .article p{
         font-size: 10px;
         line-height: 1.5;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .other-articles .article .article-description{
+        margin-left: 15px;
+        padding-right: 15px!important;
+    }
+
+    .other-articles .article img{
+        max-width: 96px;
+        max-height: 116px;
+    }
+
+    .other-articles .article h2,.other-articles .article h4{
+        margin-bottom: 4px;
+    }
+
+    .other-articles .article h2{
+        font-size: 28px;
+    }
+    
+    .other-articles .article h4{
+        font-size: 16px;
+    }
+    
+    .other-articles .article p{
+        font-size: 12px;
     }
 }

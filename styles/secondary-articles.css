@@ -52,3 +52,22 @@
         margin: 20px 0px;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .secondary-articles{
+        padding: 30px 20px!important;
+    }
+
+    .secondary-articles .main-title{
+        font-size: 30px;
+        padding-bottom: 15px;
+    }
+
+    .secondary-articles .subtitle{
+        font-size: 18px;
+    }
+
+    .secondary-articles .description{
+        font-size: 12px;
+    }
+}

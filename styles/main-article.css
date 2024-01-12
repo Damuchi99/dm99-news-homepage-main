@@ -68,3 +68,27 @@
         margin-bottom: 0px!important;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .main-article{
+        padding-right: 20px!important;
+    }
+
+    .main-article .main-article-title h1{
+        font-size: 46px;
+    }
+
+    .main-article .main-article-description p{
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+
+    .main-article .main-article-description .read-more-btn{
+        padding: 10px 25px;
+        font-size: 12px;
+    }
+
+    .main-article .main-article-preview{
+        margin-top: 20px!important;
+    }
+}
