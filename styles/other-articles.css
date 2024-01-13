@@ -24,6 +24,11 @@
     font-size: 16px;
     font-weight: 800;
     color: rgb(0, 0, 26);
+    cursor: pointer;
+}
+
+.other-articles .article h4:hover{
+    color: rgb(241, 94, 80);
 }
 
 .other-articles .article p{

@@ -29,8 +29,17 @@ header .nav-links li{
     padding-left: 40px;
 }
 
+header .nav-links li a:hover, header .overlay .overlay-content a:hover{
+    color: rgb(241, 94, 80);
+}
+
 header .open-menu-btn{
     display: none;
+    cursor: pointer;
+}
+
+header .open-menu-btn, header .close-menu-btn{
+    cursor: pointer;
 }
 
 @media screen and (max-width: 768px) {
