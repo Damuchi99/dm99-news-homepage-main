@@ -14,6 +14,7 @@
     <title>Frontend Mentor | News homepage</title>
 </head>
 <body>
+    
     <header>
         <div class="logo">
             <img src="assets/images/logo.svg" alt="News Homepage Logo"/>
@@ -27,15 +28,13 @@
                 <li><a href="#">Trending</a></li>
                 <li><a href="#">Categories</a></li>
             </ul>
-            <img class="open-menu-btn" src="assets/images/icon-menu.svg" alt="Open Menu Button"/>
+            <img class="open-menu-btn" id="open-menu-btn" src="assets/images/icon-menu.svg" alt="Open Menu Button"/>
         </nav>
 
-        <!--div class="mobile-menu" id="mobile-menu">
-            <img class="open-menu-btn" src="assets/images/icon-menu.svg" alt="Open Menu Button"/>
-        </div-->
+        <div class="mobile-menu-bg" id="mobile-menu-bg"></div>
 
-        <!--div class="overlay" id="mobile-menu">
-            <img class="close-menu-btn" src="assets/images/icon-menu-close.svg" alt="Close Menu Button"/>
+        <div class="overlay" id="mobile-menu">
+            <img class="close-menu-btn" id="close-menu-btn" src="assets/images/icon-menu-close.svg" alt="Close Menu Button"/>
             <div class="overlay-content" id="overlay-content">
                 <a href="#">Home</a>
                 <a href="#">New</a>
@@ -43,8 +42,10 @@
                 <a href="#">Trending</a>
                 <a href="#">Categories</a>
             </div>
-        </div-->
+        </div>
     </header>
+
+    
 
     <main>
         <section class="container">
@@ -111,8 +112,7 @@
             </div>
         </section>
     </main>
-    
-  
+
     <div class="attribution">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
         Coded by <a href="https://github.com/Damuchi99/dm99-news-homepage-main">Damuchi99</a>.
