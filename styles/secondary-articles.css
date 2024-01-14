@@ -2,39 +2,37 @@
     background-color: rgb(0, 0, 26);
     margin: 30px 0px!important;
     padding: 25px 20px!important;
-    /*z-index: -2;*/
 }
 
-.secondary-articles .main-title{
+.secondary-articles h2{
     font-size: 28px;
     font-weight: 700;
     color: rgb(233, 171, 83);
     padding-bottom: 20px;
 }
 
-.secondary-articles .subtitle{
+.secondary-articles h4{
     font-weight: 700;
     font-size: 18px;
     color: white;
     cursor: pointer;
 }
 
-.secondary-articles .subtitle:hover{
+.secondary-articles h4:hover{
     color: rgb(233, 171, 83);
 }
 
-.secondary-articles .description{
+.secondary-articles p{
     font-weight: 400;
     font-size: 15px;
     color: rgb(197, 198, 206);
     margin: 0px;
 }
 
-.secondary-articles hr{
-    color: rgb(197, 198, 206);
+.secondary-articles .hr{
     margin: 30px 0px;
-    position: inherit;
-    /*z-index: -1;*/
+    border-top: 1px solid rgb(93, 95, 121);
+    width: auto;
 }
 
 @media screen and (min-width: 768px) {
@@ -43,16 +41,16 @@
         padding: 14px 15px!important;
     }
 
-    .secondary-articles .main-title{
+    .secondary-articles h2{
         font-size: 20px;
         margin-bottom: 10px;
     }
 
-    .secondary-articles .subtitle{
+    .secondary-articles h4{
         font-size: 12px;
     }
 
-    .secondary-articles .description{
+    .secondary-articles p{
         font-size: 10px;
     }
 
@@ -66,16 +64,16 @@
         padding: 30px 20px!important;
     }
 
-    .secondary-articles .main-title{
+    .secondary-articles h2{
         font-size: 30px;
         margin-bottom: 15px;
     }
 
-    .secondary-articles .subtitle{
+    .secondary-articles h4{
         font-size: 18px;
     }
 
-    .secondary-articles .description{
+    .secondary-articles p{
         font-size: 12px;
     }
 }
@@ -85,17 +83,17 @@
         padding: 45px 30px!important;
     }
 
-    .secondary-articles .main-title{
+    .secondary-articles h2{
         font-size: 46px;
         margin-bottom: 20px;
     }
 
-    .secondary-articles .subtitle{
+    .secondary-articles h4{
         font-size: 24px;
         margin-bottom: 10px;
     }
 
-    .secondary-articles .description{
+    .secondary-articles p{
         font-size: 16px;
     }
 
